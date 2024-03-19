@@ -1,6 +1,7 @@
 import requests
 from concurrent.futures import ThreadPoolExecutor
 
+#url debe ser modificada por la url en su caso del jenkins junto con Referer y Origin
 url = 'http://localhost:4444/j_acegi_security_check'
 headers = {
     'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/115.0',
